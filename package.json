@@ -1,0 +1,32 @@
+{
+  "name": "esformatter-arrow-function",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "esformatter -i 'lib/**/*.js'",
+    "lint": "jshint test/*.js index.js",
+    "test": "node test/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tndev/esformatter-arrow-function.git"
+  },
+  "author": "Till Niese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tndev/esformatter-arrow-function/issues"
+  },
+  "homepage": "https://github.com/tndev/esformatter-arrow-function#readme",
+  "keywords": [
+    "esformatter",
+    "plugin"
+  ],
+  "dependencies": {
+    "rocambole": "^0.7.0",
+    "rocambole-token": "^1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
