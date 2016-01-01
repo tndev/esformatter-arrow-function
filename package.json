@@ -27,6 +27,7 @@
     "rocambole-token": "^1.2.1"
   },
   "devDependencies": {
+    "jshint": "^2.9.1-rc2",
     "mocha": "^2.3.4"
   }
 }
