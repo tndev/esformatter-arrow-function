@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/tndev/esformatter-arrow-function.svg?branch=master)](https://travis-ci.org/tndev/esformatter-arrow-function)
 
-[esformatter][esformatter] plugin for adding missing and removing unnecessary semicolons.
+[esformatter][esformatter] plugin for converting anonymous functions to arrow functions.
 
 
 
